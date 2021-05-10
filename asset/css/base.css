@@ -1,0 +1,36 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root{
+    --color-white:#F8F8F8;
+    --color-border:#E0E0E0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid{
+    width: 95%;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container{
+    padding-top: 9.75rem;
+    padding-bottom: 9.75rem;
+}
+@keyframes hovernav{
+    from{
+        opacity: 0;
+        transform: scaleX(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
